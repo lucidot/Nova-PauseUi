@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+	background-color: rgba(0,0,0,0);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	color: rgba(0,0,0,0);
+	font-family: 'Poppins', sans-serif;
+	height: 100%;
+    width: 100%;
+}
+.container {
+	position:relative;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	opacity: 0.8;
+    /* background: #FFF; */
+}
+
+.audioscouto {
+	position: absolute;
+	top: 42%;
+	left: 73%;
+	color: white;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	text-shadow: 0px 0px 10px rgb(255, 255, 255);
+	transition: 0.5s all
+}
+
+.quittext {
+	position: absolute;
+	top: 60%;
+	left: 74%;
+	text-align: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+.settext {
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px rgb(255, 255, 255);
+  }
+
+.background {
+    height: 100%;
+    width: 100%;
+	background: linear-gradient( rgba(43, 2, 2, 0.792) 49%, rgba(39, 2, 2, 0.832) 100%);
+}
+
+.map {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	height: 40%;
+	width: 30%;
+	background-image: linear-gradient(rgba(69, 0, 0, 0.888) 49%, rgba(60, 0, 0, 0.865) 100%);
+	border: solid 2px rgb(255, 255, 255);
+	text-shadow: 0px 0px 3px rgb(255, 255, 255);
+	background-size: 102%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 4%;
+  }
+
+  .mappa {
+	position: absolute;
+	top: 42%;
+	left: 45%;
+	color: white;
+	background-color: transparent;
+	text-shadow: 0px 0px 10px rgb(255, 255, 255);
+	transition: 0.5s all
+  }
+
+  .maptext{
+	position: absolute;
+	top: 60%;
+	left: 48%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-shadow: 0px 0px 4px rgb(255, 255, 255);
+  }
+
+  .settings {
+	position: absolute;
+	top: 30%;
+	left: 14%;
+	height: 40%;
+	width: 20%;
+	background-image: linear-gradient(rgba(69, 0, 0, 0.888) 49%, rgba(60, 0, 0, 0.865) 100%);
+	border: solid 2px rgb(255, 255, 255);
+	text-shadow: 0px 0px 3px rgb(255, 255, 255);
+	background-size: 102%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 4%;
+  }
+
+  .exit {
+	position: absolute;
+	top: 30%;
+	left: 66%;
+	height: 40%;
+	width: 20%;
+	background-image: linear-gradient(rgba(69, 0, 0, 0.888) 49%, rgba(60, 0, 0, 0.865) 100%);
+	border: solid 2px rgb(255, 255, 255);
+	text-shadow: 0px 0px 3px rgb(255, 255, 255);
+	background-size: 102%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 4%;
+  }
+
+
+  .logopng {
+	background: url('https://cdn.discordapp.com/attachments/1065752539586375740/1083828707396960306/novadev.png');
+	background-size: 102%;
+	background-repeat: no-repeat;
+	background-position: center;  
+  }
+
+  .setta {
+	position: absolute;
+	top: 42%;
+	left: 20%;
+	color: white;
+	height: 100px;
+	width: 100px;
+	background-color: transparent;
+	text-shadow: 0px 0px 10px rgb(255, 255, 255);
+	transition: 0.5s all
+  }
+
+.options {
+	border: none;
+	background: transparent;
+	position:absolute;
+	top: 23%;
+	left: 13%;
+	color: white;
+	text-shadow: 0px 0px 10px white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+	margin: 0px;
+	margin-left: 50px;
+	transition: 0.5s all
+}
+.title {
+	border: none;
+	text-shadow: 0px 0px 10px white;
+	background: transparent;
+	position:relative;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+}
+
+.discord {
+	position: absolute;
+	font-size: 20px;
+	top: 11.2%;
+	left: 43%;
+	border: none;
+	margin-right: 10px;
+	background: transparent;
+	text-shadow: 0px 0px 3px white;
+	color: white;
+}
+
+.store {
+	position: absolute;
+	font-size: 20px;
+	top: 11%;
+	left: 56.3%;
+	border: none;
+	margin-right: 10px;
+	background: transparent;
+	text-shadow: 0px 0px 3px white;
+	color: white;
+}
+
+.servername {
+	position: absolute;
+	top: 10%;
+	left: 45%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-size: xx-large;
+	font-weight: bold ;
+	text-shadow: 0px 0px 4px rgb(255, 255, 255);	
+}
+
+::-webkit-scrollbar-track,
+	::-webkit-scrollbar-track {
+		background-color: none;
+		border: none;
+	}
+
+	::-webkit-scrollbar,
+	::-webkit-scrollbar {
+		width: 10px;
+		background-color: rgba(0,0,0,0);
+	}
+
+	::-webkit-scrollbar-thumb,
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(119, 0, 0, 0.8);
+		border: 2px solid rgb(255, 255, 255);
+		border-radius: 10px;
+	}
+
+.options:hover {
+    cursor: pointer;
+    transform: scale(1.1)   
+}
+
+.options:focus {
+	border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.mappa:hover {
+    cursor: pointer;
+    transform: scale(1.1)   
+}
+
+.audioscouto:hover {
+    cursor: pointer;
+    transform: scale(1.1)   
+}
+
+.setta:hover{
+	cursor: pointer;
+    transform: scale(1.1)
+}
+
+.mainscreen {
+	position: absolute;
+	left: 40%;
+	bottom: 20%;
+
+	height: 50%;
+	width: 50%;
+	background: transparent;
+}
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+  color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.demo a{
+  font-family: 'Raleway', sans-serif;
+color: #000;    
+}
